@@ -1,0 +1,8 @@
+body { margin: 0; font-family: Inter, system-ui, sans-serif; background: #f6f8fb; color: #172435; }
+* { box-sizing: border-box; }
+.sidebar { width: 235px; min-height: 100vh; background: #172435; padding: 25px 12px; color: white; }
+.logo { font-size: 21px; font-weight: 700; padding: 0 18px 22px; }
+.nav-link { display: block; color: #c6d4e2; text-decoration: none; padding: 13px 18px; border-radius: 9px; margin-bottom: 5px; }
+.nav-link.router-link-active { color: #fff; background: #355b7f; }
+.content { flex: 1; padding: 30px; min-width: 0; }
+@media(max-width: 700px) { .sidebar { width: 145px; } .content { padding: 16px; } .logo { font-size: 15px; } }

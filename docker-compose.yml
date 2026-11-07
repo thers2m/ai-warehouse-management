@@ -1,0 +1,3 @@
+# Optional: chạy backend và frontend bằng Docker sẽ bổ sung sau.
+# Supabase PostgreSQL là dịch vụ ngoài, không khởi tạo database local.
+services: {}
